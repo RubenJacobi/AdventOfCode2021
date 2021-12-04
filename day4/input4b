@@ -1,0 +1,5 @@
+def filereader(filename):
+    for line in open(filename, "r"):
+        yield line.rstrip()
+
+if __name__ == "__main__":
